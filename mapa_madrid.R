@@ -15,9 +15,9 @@ dg$COORDENADA_REAL_X<-NULL
 dg$COORDENADA_REAL_Y<-NULL
 dg$NUMERO<-NULL
 #vemos que en el codigo postal existe valores que no se corresponden con 
-#el numero indicado asi que se eliminara las filas enteras.
+#el numero indicado asi que se elimina las filas.
 
-#1 pasasmos el calor -1 que aparece a NA y de ahi lo eliminamos
+#1 pasasmos el valor -1 que aparece a NA y de ahi lo eliminamos
 
 dg$CODIGO_POSTAL[dg$CODIGO_POSTAL < 1] <- NA
 #vemos cuantas filas con NA
